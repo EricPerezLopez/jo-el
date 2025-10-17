@@ -7,41 +7,22 @@ public class idk {
     public static void main(String[] args) {
 
 
-        int x;
-        int y;
-        String a1="1,";
-        String a2="2,";
-        String a3="3,";
-        String a4="4";
-        int spaces = 4;
+        int j1;
+        int j2;
+        int j3;
         Scanner ns = new Scanner(System.in);
     
-        x = ns.nextInt();
-        y = ns.nextInt();
-
-        if (x>0) {
-        a2="";
-        a3="";
-       }
-       if (x<0) {
-        a4="";
-        a1="";
-
-       }
-       if (y>0) {
-        a4="";
-        a3="";
-       }
-       if (y<0) {
-        a2="";
-        a1="";
-       }
-       //
-       if (a4 == "" && a3 == "3,") {a3 = "3";}
-       if (a3 == "" && a4== "" && a2 =="2,") {a2 = "2";}
-       if (a2 == "" && a3 == "" && a4 =="" && a1 == "1,") {a1 = "1";}
-       
-       System.out.println(a1 + a2 + a3 + a4);
+        j1 = ns.nextInt();
+        j2 = ns.nextInt();
+        j3 = ns.nextInt();
+        if (
+            (j1 >= 0 && j1 <=23)&&
+            (j2 >= 0 && j2 <=59)&&
+            (j3 >= 0 && j3 <=59)
+            ) {System.out.println("SI");
+            
+        }
+        else{ System.out.println("NO");}
        }
         }
 
