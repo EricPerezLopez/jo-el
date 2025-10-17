@@ -14,10 +14,10 @@ public class idk {
         String a3="3,";
         String a4="4";
         int spaces = 4;
-        Scanner sc = new Scanner(System.in);
+        Scanner ns = new Scanner(System.in);
     
-        x = sc.nextInt();
-        y = sc.nextInt();
+        x = ns.nextInt();
+        y = ns.nextInt();
 
         if (x>0) {
         a2="";
