@@ -7,41 +7,22 @@ public class idk {
     public static void main(String[] args) {
 
 
-        String j1;
+       float nota1=10;
+       float nota2=5;
+       float nota3=1;
+
         
         Scanner ns = new Scanner(System.in);
     
-        j1 = ns.nextLine();
+       // Nota1 = ns.nextLine();
+        float[] notas= {nota1,nota2,nota3};
+        System.out.println(notas[0]);
+        String[] noms = new String[5];
+        noms[3] = "q";
+        System.out.println(noms[3]);
+        for (int i=0; i<noms.length; i++){System.out.println(noms[i]);}
         
-        switch (j1) {
-            case "Q":
-               System.out.println("Skill 1");
-                break;
-         case "w":
-               System.out.println("Skill 2");
-                break;
-        case "E":
-               System.out.println("Skill 3");
-                break;
-         case "R":
-               System.out.println("Ultimate");
-                break;
-         case "B":
-               System.out.println("Recall");
-                break;
-         case "D":
-               System.out.println("Bronzes never use summoners");
-                break;
-                case "F":
-               System.out.println("Bronzes never use summoners");
-                break;
-               
-       
-
-            default:
-            System.out.println("Error");
-                break;
         }
   }
-}
+
 
