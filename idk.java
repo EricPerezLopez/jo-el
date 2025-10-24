@@ -7,23 +7,41 @@ public class idk {
     public static void main(String[] args) {
 
 
-        int j1;
-        int j2;
-        int j3;
+        String j1;
+        
         Scanner ns = new Scanner(System.in);
     
-        j1 = ns.nextInt();
-        j2 = ns.nextInt();
-        j3 = ns.nextInt();
-        if (
-            (j1 >= 0 && j1 <=23)&&
-            (j2 >= 0 && j2 <=59)&&
-            (j3 >= 0 && j3 <=59)
-            ) {System.out.println("SI");
-            
-        }
-        else{ System.out.println("NO");}
-       }
-        }
+        j1 = ns.nextLine();
+        
+        switch (j1) {
+            case "Q":
+               System.out.println("Skill 1");
+                break;
+         case "w":
+               System.out.println("Skill 2");
+                break;
+        case "E":
+               System.out.println("Skill 3");
+                break;
+         case "R":
+               System.out.println("Ultimate");
+                break;
+         case "B":
+               System.out.println("Recall");
+                break;
+         case "D":
+               System.out.println("Bronzes never use summoners");
+                break;
+                case "F":
+               System.out.println("Bronzes never use summoners");
+                break;
+               
+       
 
+            default:
+            System.out.println("Error");
+                break;
+        }
+  }
+}
 
